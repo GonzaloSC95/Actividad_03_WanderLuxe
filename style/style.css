@@ -58,6 +58,7 @@ header nav li a {
 header nav li a:hover {
    background-color: #fff0b7;
    color: #323840;
+   border-radius: 0.5em;
 }
 
 /* Main */
