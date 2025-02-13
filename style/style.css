@@ -53,6 +53,11 @@ header nav ul {
 }
 header nav li a {
    margin: 0 1em;
+   padding: 1em;
+}
+header nav li a:hover {
+   background-color: #fff0b7;
+   color: #323840;
 }
 
 /* Main */
@@ -182,47 +187,4 @@ footer .social a {
    margin-right: 1em;
    text-decoration: none;
    font-size: 1.75em;
-}
-
-/* Media queries */
-@media (max-width: 1500px) {
-   section {
-      padding: 2em;
-   }
-   article {
-      display: flex;
-      justify-content: space-between;
-   }
-}
-
-@media (max-width: 1150px) {
-   header nav ul {
-      display: flex;
-      justify-content: center;
-      margin-right: 40px;
-   }
-   section h1{
-      padding: 2em;
-   }
-   article {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-   }
-}
-
-@media (max-width: 792px) {
-   header nav ul {
-      display: flex;
-      justify-content: center;
-      margin-right: 35px;
-   }
-   section {
-      padding: 2em;
-   }
-   article {
-      display: flex;
-      flex-flow: column;
-      justify-content: space-between;
-   }
 }
